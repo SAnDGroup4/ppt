@@ -1,41 +1,9 @@
 {
-  "name": "EducationWebApp",
-  "version": "1.0.0",
-  "description": "Education Web App",
-  "keywords": [
-    "E-Learning",
-    "Node.js",
-    "Web application"
-  ],
-  "author": {
-    "name": "Ernie",
-    "email": "b01505025@ntu.edu.tw",
-    "url": "http://ernie55ernie.github.io/"
-  },
-  "homepage": "http://ernie55ernie.github.io/",
-
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
-  },
-
+  "name": "node-ejs",
+  "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.0.2",
-    "express": "~4.1.1",
-    "ejs": "*",
-    "express-error-handler":"*",
-    "method-override": "^1.0.0",
-    "morgan": "^1.0.0",
-    "underscore": "*",
-    "gulp": "*",
-    "gulp-live-server": "*",
-    "gulp-watch": "*",
-    "nodemon": "*",
-    "sequelize": "^2.0.0-rc1"
-  },
-  "devDependencies": {},
-  "bundleDependencies": [],
-
-  "private": true,
-  "main": "app.js"
+    "ejs": "^1.0.0",
+    "express": "^4.6.1",
+    "express-ejs-layouts": "^1.1.0"
+  }
 }
